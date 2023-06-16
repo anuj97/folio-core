@@ -1,3 +1,14 @@
+/**
+* Template Name: Folio
+* Updated: May 30 2023 with Bootstrap v5.3.0
+* Template URL: https://bootstrapmade.com/folio-bootstrap-portfolio-template/
+* Author: BootstrapMade.com
+* License: https://bootstrapmade.com/license/
+*/
+
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
 body {
   background: #ffffff;
   color: #898989;
@@ -544,6 +555,27 @@ p {
 /*-----------------------------------------------------------------------------------*/
 /*  About
 /*-----------------------------------------------------------------------------------*/
+#about {
+  width: 100%;
+  height: auto;
+  background: #f7f7f7;
+  padding-top: 120px;
+}
+
+#about .div-img-bg {
+  padding-bottom: 30px;
+  border: 20px solid #b8a07e;
+}
+
+#about .div-img-bg .about-img img {
+  width: 100%;
+  box-shadow: 0px 0px 85px 0px rgba(0, 0, 0, 0.14);
+  margin-top: -60px;
+  margin-left: 40px;
+  height: 400px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
 
 #about .about-descr .p-heading {
   font-family: "Playfair Display", serif;
